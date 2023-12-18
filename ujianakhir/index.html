@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Halaman Web Sederhana</title>
+</head>
+<body>
+    <h1>Form Input Data</h1>
+    <form id="dataForm" action="proses_data.php" method="post">
+        <label for="nama">Nama:</label>
+        <input type="text" id="nama" name="nama" required>
+
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email" required>
+
+        <label>Jenis Kelamin:</label>
+        <label><input type="radio" name="jenisKelamin" value="Laki-laki" required> Laki-laki</label>
+        <label><input type="radio" name="jenisKelamin" value="Perempuan" required> Perempuan</label>
+
+        <label><input type="checkbox" id="hadir" name="hadir"> Hadir</label>
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <h2>Data dari Server</h2>
+    <table id="dataTable" border="1">
+        <tr>
+            <th>Nama</th>
+            <th>Email</th>
+            <th>Jenis Kelamin</th>
+            <th>Hadir</th>
+        </tr>
+        <!-- Data dari server akan ditampilkan di sini -->
+    </table>
+
+    <script src="script.js"></script>
+</body>
+</html>

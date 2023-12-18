@@ -1,0 +1,116 @@
+/* style.css */
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background-color: #ffe6e6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    color: #ff3366;
+    text-align: center; /* Tengahkan teks */
+}
+
+nav {
+    background-color: #ffcc00;
+    padding: 10px;
+    text-align: center; /* Tengahkan teks */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: #3366cc;
+}
+
+a:hover {
+    color: #ff3366;
+}
+
+form {
+    margin: 20px;
+    text-align: center; /* Tengahkan teks */
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+    text-align: left; /* Tengahkan teks */
+}
+
+input[type="text"], input[type="checkbox"], button {
+    margin-bottom: 10px;
+    padding: 8px;
+    font-size: 16px;
+}
+
+table {
+    width: 80%; /* Mengatur lebar tabel */
+    margin: 20px auto; /* Menengahkan tabel */
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 12px;
+    text-align: center; /* Tengahkan teks */
+    border-bottom: 1px solid #ccc;
+}
+
+button {
+    background-color: #ff3366;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #cc0052;
+}
+
+/* Tambahkan gaya untuk halaman tampilkan_absensi.php */
+.tampilkan-absensi-container {
+    text-align: center;
+}
+
+/* Stil untuk mengatur teks dan gambar ke tengah */
+.centered {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.centered img {
+    margin-bottom: 10px;
+}
+form {
+    margin: 20px;
+    text-align: left; /* Tetapkan formulir ke kiri */
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+    text-align: left; /* Tengahkan teks */
+}
+
+input[type="text"], input[type="checkbox"], button {
+    margin-bottom: 10px;
+    padding: 8px;
+    font-size: 16px;
